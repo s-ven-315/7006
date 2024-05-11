@@ -1,0 +1,128 @@
+Column 'Make' transformation mapping:
+  Original value: Accura -> Transformed value: 0
+  Original value: BMW -> Transformed value: 1
+  Original value: Chevrolet -> Transformed value: 2
+  Original value: Dodge -> Transformed value: 3
+  Original value: Ferrari -> Transformed value: 4
+  Original value: Ford -> Transformed value: 5
+  Original value: Honda -> Transformed value: 6
+  Original value: Jaguar -> Transformed value: 7
+  Original value: Lexus -> Transformed value: 8
+  Original value: Mazda -> Transformed value: 9
+  Original value: Mecedes -> Transformed value: 10
+  Original value: Mercury -> Transformed value: 11
+  Original value: Nisson -> Transformed value: 12
+  Original value: Pontiac -> Transformed value: 13
+  Original value: Porche -> Transformed value: 14
+  Original value: Saab -> Transformed value: 15
+  Original value: Saturn -> Transformed value: 16
+  Original value: Toyota -> Transformed value: 17
+  Original value: VW -> Transformed value: 18
+
+Column 'AccidentArea' transformation mapping:
+  Original value: Rural -> Transformed value: 0
+  Original value: Urban -> Transformed value: 1
+
+Column 'Sex' transformation mapping:
+  Original value: Female -> Transformed value: 0
+  Original value: Male -> Transformed value: 1
+
+Column 'MaritalStatus' transformation mapping:
+  Original value: Divorced -> Transformed value: 0
+  Original value: Married -> Transformed value: 1
+  Original value: Single -> Transformed value: 2
+  Original value: Widow -> Transformed value: 3
+
+Column 'Fault' transformation mapping:
+  Original value: Policy Holder -> Transformed value: 0
+  Original value: Third Party -> Transformed value: 1
+
+Column 'VehicleCategory' transformation mapping:
+  Original value: Sedan -> Transformed value: 0
+  Original value: Sport -> Transformed value: 1
+  Original value: Utility -> Transformed value: 2
+
+Column 'VehiclePrice' transformation mapping:
+  Original value: 20000 to 29000 -> Transformed value: 0
+  Original value: 30000 to 39000 -> Transformed value: 1
+  Original value: 40000 to 59000 -> Transformed value: 2
+  Original value: 60000 to 69000 -> Transformed value: 3
+  Original value: less than 20000 -> Transformed value: 4
+  Original value: more than 69000 -> Transformed value: 5
+
+Column 'Days_Policy_Accident' transformation mapping:
+  Original value: 1 to 7 -> Transformed value: 0
+  Original value: 15 to 30 -> Transformed value: 1
+  Original value: 8 to 15 -> Transformed value: 2
+  Original value: more than 30 -> Transformed value: 3
+  Original value: none -> Transformed value: 4
+
+Column 'Days_Policy_Claim' transformation mapping:
+  Original value: 15 to 30 -> Transformed value: 0
+  Original value: 8 to 15 -> Transformed value: 1
+  Original value: more than 30 -> Transformed value: 2
+  Original value: none -> Transformed value: 3
+
+Column 'PastNumberOfClaims' transformation mapping:
+  Original value: 1 -> Transformed value: 0
+  Original value: 2 to 4 -> Transformed value: 1
+  Original value: more than 4 -> Transformed value: 2
+  Original value: none -> Transformed value: 3
+
+Column 'AgeOfVehicle' transformation mapping:
+  Original value: 2 years -> Transformed value: 0
+  Original value: 3 years -> Transformed value: 1
+  Original value: 4 years -> Transformed value: 2
+  Original value: 5 years -> Transformed value: 3
+  Original value: 6 years -> Transformed value: 4
+  Original value: 7 years -> Transformed value: 5
+  Original value: more than 7 -> Transformed value: 6
+  Original value: new -> Transformed value: 7
+
+Column 'AgeOfPolicyHolder' transformation mapping:
+  Original value: 16 to 17 -> Transformed value: 0
+  Original value: 18 to 20 -> Transformed value: 1
+  Original value: 21 to 25 -> Transformed value: 2
+  Original value: 26 to 30 -> Transformed value: 3
+  Original value: 31 to 35 -> Transformed value: 4
+  Original value: 36 to 40 -> Transformed value: 5
+  Original value: 41 to 50 -> Transformed value: 6
+  Original value: 51 to 65 -> Transformed value: 7
+  Original value: over 65 -> Transformed value: 8
+
+Column 'PoliceReportFiled' transformation mapping:
+  Original value: No -> Transformed value: 0
+  Original value: Yes -> Transformed value: 1
+
+Column 'WitnessPresent' transformation mapping:
+  Original value: No -> Transformed value: 0
+  Original value: Yes -> Transformed value: 1
+
+Column 'AgentType' transformation mapping:
+  Original value: External -> Transformed value: 0
+  Original value: Internal -> Transformed value: 1
+
+Column 'NumberOfSuppliments' transformation mapping:
+  Original value: 1 to 2 -> Transformed value: 0
+  Original value: 3 to 5 -> Transformed value: 1
+  Original value: more than 5 -> Transformed value: 2
+  Original value: none -> Transformed value: 3
+
+Column 'AddressChange_Claim' transformation mapping:
+  Original value: 1 year -> Transformed value: 0
+  Original value: 2 to 3 years -> Transformed value: 1
+  Original value: 4 to 8 years -> Transformed value: 2
+  Original value: no change -> Transformed value: 3
+  Original value: under 6 months -> Transformed value: 4
+
+Column 'NumberOfCars' transformation mapping:
+  Original value: 1 vehicle -> Transformed value: 0
+  Original value: 2 vehicles -> Transformed value: 1
+  Original value: 3 to 4 -> Transformed value: 2
+  Original value: 5 to 8 -> Transformed value: 3
+  Original value: more than 8 -> Transformed value: 4
+
+Column 'BasePolicy' transformation mapping:
+  Original value: All Perils -> Transformed value: 0
+  Original value: Collision -> Transformed value: 1
+  Original value: Liability -> Transformed value: 2
