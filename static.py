@@ -22,7 +22,7 @@ def get_question_label():
 		"VehiclePrice" : "What was the original cost new of the vehicle involved in the accident?",
 		"RepNumber" : "What is the unique identifier of the claims adjuster who handled this claim?",
 		"Deductible" : "What is the amount the insured must pay before the insurer begins paying for repairs?",
-		"DriverRating" : "Provide the driver's rating.",
+		"DriverRating" : "Please provide the driver's rating, where 1 is the lowest and 4 is the highest.",
 		"Days_Policy_Accident" : "How many days were there between policy inception and the reported date of the accident?",
 		"Days_Policy_Claim" : "How many days were there between policy inception and the date the claim was reported?",
 		"PastNumberOfClaims" : "How many prior claims are there on the insured's policy?",
